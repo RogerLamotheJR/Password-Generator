@@ -1,0 +1,44 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;   
+    text-align: left;
+    width: 100%;
+  }
+
+  .card-header{
+    background: #e7e6e6;
+    padding: 3px;
+    text-align: center;
+  }
+
+  .card-body{
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .btn{
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid #cdcccc;
+  }
+
+  .card-footer{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+  }
+
+  #newpassword{
+    font-size: 22px;
+    font-weight: bold;
+    border: 0px;
+  }
